@@ -45,4 +45,5 @@ sudo systemctl daemon-reload
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo systemctl status docker
+sudo dnf install maven -y
 sudo yum install jq -y
