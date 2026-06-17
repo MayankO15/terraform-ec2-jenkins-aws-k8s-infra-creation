@@ -46,4 +46,6 @@ sudo systemctl start docker
 sudo systemctl enable docker
 sudo systemctl status docker
 sudo dnf install maven -y
+export JAVA_HOME=/usr/lib/jvm/java-21-amazon-corretto.x86_64
+export PATH=$JAVA_HOME/bin:$PATH
 sudo yum install jq -y
